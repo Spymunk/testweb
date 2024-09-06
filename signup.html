@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+
+
+<body class="signinbdy">
+
+    <div class="signupipts">
+
+        <div class="contents">
+            <br>
+            <br><br>
+            <div class="text">
+                <img class="epwlg" src="Images/cutlogo.png" alt="Epawoologo">
+
+
+            </div>
+            <br><br><br>
+
+            <form action="/submit_form" method="post">
+
+                <div class="login-form">
+
+                    <h3 class="xr"> Log in to your Account</h3><br>
+
+                    <h6 class="xrs">Securely log in to your Epawoo acccount</h6>
+                    <br>
+                    <form action="/submit-login" method="post">
+
+                        <div class="form-group">
+                            <label for="username">Full Name</label><br>
+                            <input type="text" id="usernamesup" placeholder="Full Name" name="username" required>
+                        </div>
+                        <br><br>
+                        <div class="password">
+                            <label for="password">Email Address</label><br>
+                            <input type="password" id="passwordsup" placeholder="Email Address" name="password"
+                                required>
+                        </div>
+                        <br><br>
+
+                        <div class="password">
+                            <label for="password">Phone Number</label><br>
+                            <input type="password" id="passwordsup" placeholder="Phone Number" name="password" required>
+                        </div><br><br>
+
+                        <div class="password">
+                            <label for="password">Password</label><br>
+                            <input type="password" id="passwordsup" placeholder="Password" name="password" required>
+                        </div>
+                        <br><br>
+
+                        <div class="password">
+                            <label for="password">Referral phone or promo code</label><br>
+                            <input type="password" id="passwordsup" placeholder="Referal" name="password" required>
+                        </div>
+                        <br><br>
+
+                        <div class="password">
+                            <label for="password">How Did You Hear About Us</label><br>
+                            <select id="country" name="country">
+                                <option value="other">Click to Select</option>
+                                <option value="us"> Facebook</option>
+                                <option value="ca">Twitter</option>
+                                <option value="uk">Instagram</option>
+                                <option value="au">Blog</option>
+                                <option value="other">A Friend</option>
+                                <option value="other">Googleplay store</option>
+                                <option value="other">An event</option>
+                                <option value="other">Google Search</option>
+
+                            </select>
+
+                        </div>
+                        <br><br>
+                        <input class="rbtns" type="submit" value=" CREATE AN ACCOUNT">
+
+                    </form>
+                </div>
+                <br>
+        </div>
+        </form>
+        <br><br> <br>
+        <footer class="end">
+            <h5 id="reg"><a href="/signin.html">Already have an account? Log in</a></h5>
+            <br>
+            <h5 class="reg"><a href="/forgotpsw.html">Forgot password?</a></h5>
+        </footer>
+    </div>
+</body>
+
+</html>
